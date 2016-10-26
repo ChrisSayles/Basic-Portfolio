@@ -1,8 +1,7 @@
-
 p {
-	color: #777777;
-	font-size: 15px;
-	font-family: "Arial","Helvetica Neue","Helvetica","sans-serif";
+    color: #777777;
+    font-size: 15px;
+    font-family: "Arial","Helvetica Neue","Helvetica","sans-serif";
 
 }
 
@@ -22,59 +21,61 @@ p {
 }
 
 #aboutmemainhr {
-	color: #dddddd;
+    color: #dddddd;
     height: 3px;
     background-color: #dddddd;
     border: 0 none;
 }
 
 #photospecs {
-	width: 300px;
-	height: 250px;
-	float: left;
-	padding: 0 20px 0 0;
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding: 0 20px 0 0;
 }
 
 #aboutmesidebar {
-	width: 270;
+    width: 185px;
     border-style: solid;
     border-color: #dddddd;
     float: left;
     margin-left: 40px;
     margin-top: 20px;
-    padding-left: 23px;
-    padding-right: 4px;
+    padding-left: 26px;
+    padding-right: 17px;
     padding-bottom: 20px;
     background-color: #ffffff;
 }
 .socialmedialogo {
-	width: 55px;
-	height: 55px;
+    width: 55px;
+    height: 55px;
 }
 
 
 section {
-	display: inline-block;
+    display: inline-block;
 }
 body {
-	 background-image: url(file:///Users/chrissayles/Desktop/Basic-Portfolio/assets/images/brickwallbackground.png);
+     background-image: url(file:///Users/chrissayles/Desktop/Basic-Portfolio/assets/images/brickwallbackground.png);
 }
 
 #connectwithme {
-	color: #4aaaa5;
+    color: #4aaaa5;
     font-size: 18px;
     margin-left: 0px;
 }
 
 #connectwithmehr {
-	color: #dddddd;
+    color: #dddddd;
     height: 2px;
     background-color: #dddddd;
     border: 0 none;
+    width: 174px;
+    margin-left: -1px;
 }
 
 .topdivsection {
-	width: 1300px;
+    width: 100%;
     border-style: none;
     background-color: white;
     height: 69px;
@@ -149,4 +150,34 @@ body {
   border: none;
   height: 30px;
   width: 90px;
+}
+
+#footerlineteal {
+    background-color: #4aaaa5;
+    background-size: 20px;
+    height: 10px;
+    margin: auto;
+    border: 0;
+}
+.center {
+    text-align: center;
+    float: none;
+}
+
+footer {
+    background-color: #666666;
+    overflow: auto;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+
+.portfolioimage {
+    height: 200px;
+    width: 200px;
+    float: left;
 }
