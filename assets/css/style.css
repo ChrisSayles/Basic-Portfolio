@@ -5,6 +5,10 @@ p {
 
 }
 
+body {
+    background-image: url("../images/brickwallbackground.png");
+}
+
 #aboutmemain {
     background-color: #ffffff;
     width: 644px;
