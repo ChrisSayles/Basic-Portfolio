@@ -206,9 +206,12 @@ footer {
     color: white;
     float: left;
     margin-top: 10px;
-    position: absolute;
+    position: relative;
     height: 70px;
 }
+
+
+
 
 .portfolioimage {
     height: 200px;
