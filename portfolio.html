@@ -1,62 +1,52 @@
-<DOCTYPE html>
 
-<!--CSS Relative Link-->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css"
-
-<!--Title-->
-<Title>Portfolio</Title>
-
-<!--Head Info-->
-<Head>
-
-</Head>
-
-<!--Body-->
-<Body>
-<!--Nesting two divs for the top header section-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<meta charset="UTF-8">
+</head>
+<body>
 <div class="topdivsection">
 	<div class="aboutPortfolioContactHeaderText">
-			<a href="#" style="color: #b5b5b0; text-decoration:none">About    |</a>
-			<a href="file:///Users/chrissayles/Desktop/Basic-Portfolio/portfolio.html" style="color: #b5b5b0; text-decoration:none">Portfolio    |</a>
-			<a href="file:///Users/chrissayles/Desktop/Basic-Portfolio/contact.html" style="color: #b5b5b0; text-decoration:none">Contact</a>
+			<a href="index.html" style="color: #b5b5b0; text-decoration:none">About    |</a>
+			<a href="portfolio.html" style="color: #b5b5b0; text-decoration:none">Portfolio    |</a>
+			<a href="contact.html" style="color: #b5b5b0; text-decoration:none">Contact</a>
 	</div>
-	<div id="headerChrisSayles">
+	<div id="headerChrisSaylesPort">
 		<div id='chrisSaylesText'>Christopher Sayles</div>
 	</div>
 </div>
-<div>
-<!--Div containing portfolio images, text, horizontal rule-->
- <section>
- <div>
-	<div id="aboutmemain">
-		<h1 id="aboutmeheader">Portfolio</h1>
-		<hr id="aboutmemainhr">
-		<!--images for portfolio-->	
-		<!--image 1-->
-			<div>
-				<img class="portfolioimage" src="assets/images/hangmangame.jpeg">
+	<div class="container">
+		<section class="main_content portfolio_content" >
+			<h2>Portfolio</h2>
+			<hr/>
+			
+			<div class="projectimg">
+				<img src="assets/images/hangmangame.jpeg" height="175px" width="263px" alt="Hangman"/>
+				<h3>Hangman</h3>
 			</div>
-		<!--image 2-->
-			<div>
-				<img class="portfolioimage" src="assets/images/rpg game.jpeg">
+			<div class="projectimg rightimage">
+				<img src="assets/images/rpg_game.jpeg" height="175px" width="263px" alt="RPG Game"/>
+				<h3>RPG Game</h3>
 			</div>
-		<!--image 3-->
-			<div>
-				<img class="portfolioimage" src="assets/images/trivia game.jpeg">
+			<div class="projectimg">
+				<img src="assets/images/triviagame.jpeg" height="175px" width="263px" alt="Trivia Game"/>
+				<h3>Trivia Game</h3>
 			</div>
-		<!--image 4-->
-			<div>
-				<img class="portfolioimage" src="assets/images/rutgers info widgit.jpeg">
+			<div class="projectimg rightimage">
+				<img src="assets/images/rutgers_info_widgit.jpeg" height="175px" width="263px" alt="Rutgers Info Widget"/>
+				<h3>Rutgers Info Widget</h3>
 			</div>
-		<!--image 5-->
-			<div>
-				<img class="portfolioimage" src="assets/images/trivia game.jpeg">
+			<div class="projectimg">
+				<img src="assets/images/rock_paper_scissors.jpeg" height="175px" width="263px" alt="Rock Paper Scissors"/>
+				<h3>Rock Paper Scissors</h3>
 			</div>
-	</div>
-<!--Connect with me Section-->
-	<div id="aboutmesidebar">
+		</section>
+		<div id="aboutmesidebarpor">
 <!--Connect with me text-->	
-		<h2 id="connectwithme">Connect with me</h2>
+		<h2 id="connectwithmepor">Connect with me</h2>
 <!--Horizontal Rule-->
 		<hr id="connectwithmehr">
 <!--Image Links to connect with-->
@@ -72,11 +62,10 @@
 		<img src="assets/images/1477284180_stackoverflow.png" class="socialmedialogo" alt="Stackoverflow Logo">
 		</a>
 	</div>
-</div>
-</section>
-<footer>
+		<footer>
 	<hr id="footerlineteal">
-	<h4 class="center"> ©Copyright 2016 Christopher T. Sayles</h4>
+	<h4 class="centerpor"> ©Copyright 2016 Christopher T. Sayles</h4>
 </footer>
-</Body>
+	</div>
+</body>
 </html>
